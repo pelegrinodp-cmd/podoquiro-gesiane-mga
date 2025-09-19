@@ -19,7 +19,7 @@ html {
 
 /* Slight card shadow */
 .shadow-lg {
-  box-shadow: 0 10px 30px rgba(0,0,0,0.10);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.10);
 }
 
 /* Make images look slightly inset on light bg */
@@ -34,6 +34,11 @@ img {
 
 /* Small screens adjustments */
 @media (max-width: 640px) {
-  header section { min-height: 70vh; }
-  .reveal { transition-duration: 500ms; }
+  header section {
+    min-height: 70vh;
+  }
+
+  .reveal {
+    transition-duration: 500ms;
+  }
 }
